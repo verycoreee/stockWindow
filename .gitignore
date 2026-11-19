@@ -1,0 +1,22 @@
+# Python 编译缓存与虚拟环境
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# 运行期本地配置与日志（防止将个人自选列表或本机路径推送到远程仓库）
+data/
+logs/
+*.log
+
+# IDE 与系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
